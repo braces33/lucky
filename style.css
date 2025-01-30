@@ -13,8 +13,8 @@ body {
 
 /* 主要內容框 */
 .container {
-    width: 85%;
-    max-width: 350px; /* 縮小框架寬度 */
+    width: 90%;
+    max-width: 420px; /* 框框加寬 */
     padding: 20px; /* 縮小內邊距 */
     background: white;
     border-radius: 15px; /* 降低圓角 */
@@ -25,14 +25,14 @@ body {
 
 h2 {
     color: #b22222;
-    font-size: 20px; /* 縮小標題字體 */
+    font-size: 22px; /* 縮小標題字體 */
 }
 
 button {
     margin-top: 10px;
-    padding: 10px;
+    padding: 12px;
     width: 100%;
-    font-size: 16px; /* 縮小按鈕 */
+    font-size: 18px; /* 縮小按鈕 */
     font-weight: bold;
     background-color: #b22222;
     color: white;
@@ -48,7 +48,7 @@ button:hover {
 
 #result {
     margin-top: 15px;
-    font-size: 18px; /* 縮小結果字體 */
+    font-size: 15px; /* 縮小結果字體 */
     font-weight: bold;
     color: #d9534f;
     animation: fadeIn 1s ease-in-out;
@@ -56,10 +56,10 @@ button:hover {
 
 /* 抽籤動畫 */
 .omikuji {
-    font-size: 24px; /* 縮小籤詩 */
+    font-size: 26px; /* 縮小籤詩 */
     padding: 15px;
     margin: 10px auto;
-    width: 220px; /* 縮小框框 */
+    width: 260px; /* 框框加寬 */
     background-color: white;
     color: black;
     border-radius: 10px;
